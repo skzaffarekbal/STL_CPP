@@ -64,6 +64,26 @@ int main()
     }
     cout << '\n';
 
+    // Delete and insert in vector
+    vector<int> vOp = {10, 20, 12, 23, 35, 45, 50, 70};
+    vOp.erase(vOp.begin() + 1);                  // delete 20 --> {10, 12, 23, 35, 45, 50, 70}
+    vOp.erase(vOp.begin() + 2, vOp.begin() + 4); // [ start , end ) --> end not includes
+    // now it delete 23, 35 --> {10, 12, 45, 50, 70}
+    vOp.insert(vOp.begin(), 5); // it insert at 1st --> {5, 10, 12, 45, 50, 70}
+
+    for (auto it = vOp.begin(); it != vOp.end(); it++)
+    {
+        cout << *(it) << " ";
+    }
+    cout << '\n';
+
+    cout << vOp.size() << "\n"; // To check size
+    // v100- > {100, 100, 100, 100, 100}
+    // v0- > {0, 0, 0, 0, 0}
+    v100.swap(v0);             // v1 {0, 0, 0, 0, 0} , v2 {100, 100, 100, 100, 100}
+    vOp.clear();               // erases the entire vector
+    cout << v.empty() << "\n"; // To check is it empty or not
+
     // Pair of vector(Nested)
     vector<pair<int, string>>
         vec = {{1, "Zaff"}, {2, "Mobo"}};
