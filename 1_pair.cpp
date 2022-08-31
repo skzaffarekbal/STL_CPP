@@ -3,11 +3,11 @@
 TODO: https://www.geeksforgeeks.org/pair-in-cpp-stl/
 
 ===============================(PAIR)=================================
-1. If not initialized, the first value of the pair gets automatically initialized. 
-2. make_pair(): This template function allows to create a value pair without writing the types explicitly. 
-3. swap(): This function swaps the contents of one pair object with the contents of another pair object. The pairs must be of the same type. 
+1. If not initialized, the first value of the pair gets automatically initialized.
+2. make_pair(): This template function allows to create a value pair without writing the types explicitly.
+3. swap(): This function swaps the contents of one pair object with the contents of another pair object. The pairs must be of the same type.
 e.g: pair1.swap(pair2) ;
-4. In a pair we use operators(=, ==, !=, >=, <=) 
+4. In a pair we use operators(=, ==, !=, >=, <=)
 */
 
 #include <bits/stdc++.h>
@@ -26,11 +26,11 @@ int main()
     cout << p1.first << " " << p1.second << "\n";
     cout << p2.first << " " << p2.second << "\n";
 
-    //Initialization & Declaration of Pair
+    // Initialization & Declaration of Pair
     pair<int, string> p3(3, "Ali");
     cout << p3.first << " " << p3.second << "\n";
 
-    //Copy by reference
+    // Copy by reference
     pair<int, string> &p4 = p3;
     p4.first = 12;
     cout << p4.first << " " << p4.second << "\n";
@@ -51,7 +51,7 @@ int main()
     }
 
     for (int i = 0; i < 3; i++)
-        cout<<data[i].first<<" --> "<<data[i].second<<"\n";
+        cout << data[i].first << " --> " << data[i].second << "\n";
 
     return 0;
 }
