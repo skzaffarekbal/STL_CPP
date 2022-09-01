@@ -95,5 +95,12 @@ int main()
         cout << it.first << "--->" << it.second << "\n";
     }
 
+    // Array of vector
+    int N = 3;
+    vector<int> av[N];
+
+    // Vector of vector
+    vector<vector <int>> vv;
+
     return 0;
 }
