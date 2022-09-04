@@ -38,7 +38,8 @@ int main()
     cout << "Count of 1 : " << cnt << endl;
 
     auto it = st.find(10);
-    st.erase(it); // it takes constant time
+    if (it != st.end())
+        st.erase(it); // it takes constant time
     auto it1 = st.find(2);
     auto it2 = st.find(4);
     st.erase(it1, it2); // It erase [ first , last )
