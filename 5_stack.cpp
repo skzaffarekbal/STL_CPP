@@ -14,7 +14,7 @@ int main()
     st.push(3);                             // ( 3 , 3 , 2 , 1 )
     st.emplace(5);                          // ( 5 , 3 , 3 , 2 , 1 )
     cout << "Top : " << st.top() << endl;   // prints 5 " ** st [ 2 ] is invalid ***
-    st.pop();                               // st looks like ( 3 ,
+    st.pop();                               // st looks like ( 3 , 3 , 2 , 1 )
     cout << "Top : " << st.top() << endl;   // 3
     cout << "Size : " << st.size() << endl; // 4
     cout << "isEmpty : " << st.empty() << endl;
