@@ -1,5 +1,10 @@
 /*
 TODO: https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
+
+-> Maps are associative containers that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have the same key values.
+-> Map is used to store elements as key,value pairs in sorted order.
+-> Implementation Self balancing BST like Red-Black Tree.  
+-> Time complexity for operations is O(log N).
 */
 #include <bits/stdc++.h>
 using namespace std;

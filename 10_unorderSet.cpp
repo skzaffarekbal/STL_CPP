@@ -1,5 +1,8 @@
 /*
 TODO: https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
+
+-> An unordered_set is implemented using a hash table where keys are hashed into indices of a hash table so that the insertion is always randomized.
+-> All operations takes constant time O(1) on an average which can go up to linear time O(n) in worst case which depends on the internally used hash function, but practically they perform very well and generally provide a constant time lookup operation. 
 */
 #include <bits/stdc++.h>
 using namespace std;

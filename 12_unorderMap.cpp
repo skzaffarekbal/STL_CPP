@@ -1,5 +1,10 @@
 /*
 TODO: https://www.geeksforgeeks.org/unordered_map-find-in-c-stl/
+
+-> An unordered_set is implemented using a HASH TABLE where keys are hashed into indices of a hash table so that the insertion is always randomized.
+-> Time complexity for operations is O(1)
+-> In the worst case, its time complexity can go from O(1) to O(n2), especially for big prime numbers.
+-> unordered_map is used to store elements as key,value pairs in non-sorted order.
 */
 #include <bits/stdc++.h>
 using namespace std;

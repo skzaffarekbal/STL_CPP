@@ -1,5 +1,9 @@
 /*
 TODO: https://www.geeksforgeeks.org/set-in-cpp-stl/
+
+->  Sets are a type of associative container in which each element has to be unique because the value of the element identifies it. The values are stored in increasing order(by default).
+-> Implemented Self balancing BST like Red-Black Tree.
+-> Time complexity for operations is O(log N).
 */
 #include <bits/stdc++.h>
 using namespace std;
